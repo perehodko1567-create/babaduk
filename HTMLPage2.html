@@ -1,137 +1,64 @@
 ﻿<!DOCTYPE html>
 <html lang="uk">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Мій сайт</title>
-
-<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #1f7a2e;
-    color: white;
-}
-
-.container {
-    display: flex;
-    padding: 60px;
-}
-
-/* Ліва частина */
-.left {
-    width: 40%;
-}
-
-.title {
-    color: #cc66cc;
-    font-size: 30px;
-    margin-top: 40px;
-}
-
-.subtitle {
-    color: #66aaff;
-    margin-top: 10px;
-    font-size: 18px;
-}
-
-/* Іконки */
-.icons {
-    margin-top: 20px;
-}
-
-.icons img {
-    width: 28px;
-    margin-right: 12px;
-    transition: 0.2s;
-}
-
-.icons img:hover {
-    transform: scale(1.2);
-}
-
-/* Мем */
-.meme {
-    width: 300px;
-    border-radius: 20px;
-    margin-top: 30px;
-}
-
-/* Права частина */
-.right {
-    width: 60%;
-    padding-left: 60px;
-}
-
-.section {
-    margin-bottom: 35px;
-}
-
-.section h2 {
-    color: #cc66cc;
-    font-size: 28px;
-}
-
-.section p {
-    color: #66aaff;
-    font-size: 18px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій сайт</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<div class="container">
+    <div class="container">
 
-    <!-- Ліва частина -->
-    <div class="left">
+        <!-- Ліва частина -->
+        <div class="left">
 
-        <!-- Мем -->
-        <img src="https://i.kym-cdn.com/photos/images/original/001/245/011/a41.png" class="meme">
+            <!-- Мем -->
+            <img src="https://i.kym-cdn.com/photos/images/original/001/245/011/a41.png" alt="Мем" class="meme">
 
-        <div class="title">🔧 Вацик зробив</div>
-        <div class="subtitle">Берлін, Україна.</div>
+            <div class="title">🔧 Вацик зробив</div>
+            <div class="subtitle">Берлін, Україна.</div>
 
-        <!-- Іконки -->
-        <div class="icons">
-            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png"></a>
-            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a>
-            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png"></a>
+            <!-- Іконки -->
+            <div class="icons">
+                <a href="#" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+                <a href="#" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Instagram"></a>
+                <a href="#" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub"></a>
+            </div>
+
+        </div>
+
+        <!-- Права частина -->
+        <div class="right">
+
+            <div class="section">
+                <h2>Про мене :)</h2>
+                <p>Живу, як можу, коджу, як хочу.</p>
+            </div>
+
+            <div class="section">
+                <h2>Досвід 🤓</h2>
+                <p>Пишу код, щоб не писати домашку.</p>
+            </div>
+
+            <div class="section">
+                <h2>Вміння</h2>
+                <p>Stack Overflow — мій наставник.</p>
+            </div>
+
+            <div class="section">
+                <h2>😲 Проекти</h2>
+                <p class="project">Microsoft</p>
+            </div>
+
+            <div class="section">
+                <h2>Контакти 😊</h2>
+                <p>Не багато хочете?</p>
+            </div>
+
         </div>
 
     </div>
-
-    <!-- Права частина -->
-    <div class="right">
-
-        <div class="section">
-            <h2>Про мене :)</h2>
-            <p>Живу, як можу, коджу, як хочу.</p>
-        </div>
-
-        <div class="section">
-            <h2>Досвід 🤓</h2>
-            <p>Пишу код, щоб не писати домашку.</p>
-        </div>
-
-        <div class="section">
-            <h2>Вміння</h2>
-            <p>Stack Overflow — мій наставник.</p>
-        </div>
-
-        <div class="section">
-            <h2>😲 Проекти</h2>
-            <p style="color: #ff6666;">Microsoft</p>
-        </div>
-
-        <div class="section">
-            <h2>Контакти 😊</h2>
-            <p>Не багато хочете?</p>
-        </div>
-
-    </div>
-
-</div>
 
 </body>
 </html>
